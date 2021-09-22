@@ -45,9 +45,9 @@ for i in recupcom(): #for each review a score of positivity is given using token
 # print(Polarity_Score)
 
 result=numpy.mean(Polarity_Score) #making a mean value of positivity 
-# print(result)
+print(result)
 
-if result>=0.1: #estimate value between a bad and good movie, find using different movies as example 
-    print(url[1]+"is a Good movie") 
+if result>=0.135: #estimate value between a bad and good movie, find using different movies as example 
+    print(url[1]+" is a Good movie") 
 else:
-    print(url[1]+"is a Bad movie")
+    print(url[1]+" is a Bad movie")
