@@ -1,0 +1,2 @@
+This file scrap data from https://www.rottentomatoes.com/, it collect the html file by a resquest and convert the file into string in Python. With this string we can select with Bs4 only part that we want in my case reviews from users.
+The second part of the program is a basic text anlysis base on positivity and negativity score from TextBlob and use Tokenizers method to evaluate each review. We obtain a mean value for the movie and base on the review it decide if the movie is appreciate or not.
