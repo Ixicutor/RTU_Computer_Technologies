@@ -29,7 +29,7 @@ if url==4:
     url =["https://www.rottentomatoes.com/m/the_circle_2017/reviews","The circle"]
         
     
-page = requests.get(url[0]) #use requests to reserv the html file from the server
+page = requests.get(url[0]) #use requests to get acces the html file from the server
 soup = BeautifulSoup(page.text, 'html.parser') #convert the package receive into text
 
 
